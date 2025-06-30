@@ -1,0 +1,27 @@
+[
+  {
+    "id": "intro",
+    "title": "Введение",
+    "content": "<p>Добро пожаловать в документацию YuMino! Здесь вы узнаете, как создавать собственные модули для юзербота и как его использовать.</p>"
+  },
+  {
+    "id": "Quick Start",
+    "title": "Быстрый старт",
+    "content": "<p>начнем с установки через installer.sh</p>\n<pre><code class=\"language-bash\">bash installer.sh</code></pre>\n<p>Затем перезагрузите termux / Pydroid и запустите starter.sh</p>\n<pre><code class=\"language-bash\">cd YuMino\nbash starter.sh</code></pre>"
+  },
+  {
+    "id": "structure",
+    "title": "Структура модуля",
+    "content": "<p><code>manifest.yml</code> - файл содержит метаданные модуля (НЕОБХОДИМ)\n<code>module.py</code> - файл содержит основной код модуля (НЕОБХОДИМ)\nмодули поддерживают архитектуры, т.е необязательно писать все в одном файле а можно просто разделить.</p>"
+  },
+  {
+    "id": "templates",
+    "title": "Шаблоны",
+    "content": "<p>Это базовый шаблон модулей версии 1.1</p>\n\n<pre><code class=\"language-python\">from pyrogram import Client\nfrom pyrogram.types import Message\nfrom utils.helpers import *\nfrom api.connect import owner_only\n\nasync def on_load(app: Client):\n    print(\"Template module loaded!\")\n\nasync def on_unload(app: Client):\n    print(\"Template module unloaded!\")\n\n@owner_only\nasync def template_cmd(client: Client, message: Message):\n    await message.reply(\"template\")</code></pre>"
+  },
+  {
+    "id": "conclusion",
+    "title": "Заключение",
+    "content": "<p>Теперь вы готовы создавать свои собственные модули для YuMino! Не забудьте проверить зависимости и протестировать модуль перед публикацией.</p>"
+  }
+]
