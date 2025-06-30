@@ -1,0 +1,8 @@
+name: help
+version: 1.0.0
+description: Системный пакет
+author: YuMino
+commands:
+  help: help_cmd
+  modules: help_cmd
+  modlist: help_cmd
