@@ -1,0 +1,9 @@
+API_HASH: 0
+API_ID: 0
+OWNER_ID: 0
+PREFIXES:
+- .
+- '!'
+- /
+- $
+SESSION_STRING:
