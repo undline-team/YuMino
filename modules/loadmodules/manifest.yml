@@ -1,0 +1,17 @@
+name: loadmodules
+version: 1.0.2
+description: Менеджер модулей
+author: YuMino
+commands:
+  loadmod:
+    loadmod: load_module_cmd
+    lm: load_module_cmd
+  unloadmod:
+    unloadmod: unload_module_cmd
+    ulm: unload_module_cmd
+  unloadkeep:
+    unloadkeep: unload_keep_cmd
+    ulk: unload_keep_cmd
+  listmods:
+    listmods: list_modules_cmd
+    ld: list_modules_cmd
