@@ -1,0 +1,6 @@
+name: ModulesHelp
+version: 1.0.0
+description: Сайт с документацией по созданию модулей
+author: YuMino
+commands:
+  modules_help: modules_help_cmd
