@@ -1,0 +1,199 @@
+body.dark-theme {
+    background-color: #222;
+    color: #eee;
+}
+
+body.dark-theme section {
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-theme h2 {
+    color: #f39c12;
+    border-bottom: 2px solid #555;
+}
+
+body.dark-theme p {
+    color: #ccc;
+}
+
+body.dark-theme pre {
+    background: #444;
+    border: 1px solid #666;
+    color: #eee;
+}
+
+body.dark-theme nav {
+    background: #222;
+}
+
+body.dark-theme header {
+    background: #111;
+}
+
+body.dark-theme footer {
+    background: #111;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6 {
+    color: #f39c12;
+}
+
+body.dark-theme p,
+body.dark-theme li,
+body.dark-theme span,
+body.dark-theme a,
+body.dark-theme div,
+body.dark-theme td,
+body.dark-theme th {
+    color: #ccc;
+}
+
+body.dark-theme a:hover {
+    color: #f39c12;
+}
+
+body.dark-theme ftext {
+    color: #f39c12;
+}
+
+body.dark-theme .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #333;
+    color: #eee;
+}
+
+body.dark-theme .hljs-comment,.hljs-quote {
+  color: #d4d0ab
+}
+
+body.dark-theme .hljs-deletion,.hljs-name,.hljs-regexp,.hljs-selector-class,.hljs-selector-id,.hljs-tag,.hljs-template-variable,.hljs-variable {
+  color: #ffa07a
+}
+
+body.dark-theme .hljs-built_in,.hljs-link,.hljs-literal,.hljs-meta,.hljs-number,.hljs-params,.hljs-type {
+  color: #f5ab35
+}
+
+body.dark-theme .hljs-attribute {
+  color: gold
+}
+
+body.dark-theme .hljs-addition,.hljs-bullet,.hljs-string,.hljs-symbol {
+  color: #abe338
+}
+
+body.dark-theme .hljs-section,.hljs-title {
+  color: #00e0e0
+}
+
+body.dark-theme .hljs-keyword,.hljs-selector-tag {
+  color: #dcc6e0
+}
+
+body.dark-theme .hljs-emphasis {
+  font-style: italic
+}
+
+body.dark-theme .hljs-strong {
+  font-weight: 700
+}
+
+body.dark-theme .burger-menu-button .line {
+    background-color: #fff;
+}
+
+body.dark-theme .menu {
+    background-color: #1a1a1a;
+}
+
+body.dark-theme .menu a {
+    color: #eee;
+}
+
+body.dark-theme nav a.active {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+body:not(.dark-theme) nav a.active {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+body:not(.dark-theme) .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #fff;
+    color: #1e1e1e;
+}
+body:not(.dark-theme) .hljs-comment,.hljs-quote {
+  color: #d4d0ab
+}
+
+body:not(.dark-theme) .hljs-deletion,.hljs-name,.hljs-regexp,.hljs-selector-class,.hljs-selector-id,.hljs-tag,.hljs-template-variable,.hljs-variable {
+  color: #ffa07a
+}
+
+body:not(.dark-theme) .hljs-built_in,.hljs-link,.hljs-literal,.hljs-number,.hljs-params,.hljs-type {
+  color: #f5ab35
+}
+
+body:not(.dark-theme) .hljs-attribute {
+  color: gold
+}
+
+body:not(.dark-theme) .hljs-addition,.hljs-bullet,.hljs-string,.hljs-symbol {
+  color: #abe338
+}
+
+body:not(.dark-theme) .hljs-section,.hljs-title {
+  color: #00e0e0
+}
+
+body:not(.dark-theme) .hljs-keyword,.hljs-selector-tag, .hljs-meta {
+  color: #7A0353;
+}
+
+body:not(.dark-theme) .hljs-emphasis {
+  font-style: italic
+}
+
+body:not(.dark-theme) .hljs-strong {
+  font-weight: 700
+}
+
+body:not(.dark-theme) h1,
+body:not(.dark-theme) h2,
+body:not(.dark-theme) h3,
+body:not(.dark-theme) h4,
+body:not(.dark-theme) h5,
+body:not(.dark-theme) h6 {
+    color: #f39c12;
+}
+
+body:not(.dark-theme) p,
+body:not(.dark-theme) li,
+body:not(.dark-theme) span,
+body:not(.dark-theme) a,
+body:not(.dark-theme) div,
+body:not(.dark-theme) td,
+body:not(.dark-theme) th {
+    color: #000;
+}
+
+body:not(.dark-theme) a:hover {
+    color: #f39c12;
+}
+
+body:not(.dark-theme) ftext {
+    color: #fff;
+}
