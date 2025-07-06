@@ -1,0 +1,5 @@
+PYTHON_EXECUTABLE="python3"
+EXTRACTED_DIR="YuMino"
+
+cd "$EXTRACTED_DIR"/src
+"$PYTHON_EXECUTABLE" main.py
